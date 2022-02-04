@@ -33,6 +33,9 @@ const Navbar = () => {
                                    
                             
                         </li>
+                        <li className="nav-item  w-75 m-auto">
+                            <NavLink className="nav-link  text-center text-light" to="/auditions">Auditions</NavLink>
+                        </li>
 
 
 
