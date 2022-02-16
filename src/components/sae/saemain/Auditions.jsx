@@ -6,7 +6,7 @@ const Auditions = () => {
             <div class="row total">
                 <div class="col-md-6 saeaudition">
                     <p>
-                        Welcome to SAE Auditions
+                        Welcome to SAE-NITD Auditions
 
                     </p>
                     <p class="note1">
@@ -19,14 +19,14 @@ const Auditions = () => {
                 </div>
                 <div class="col-md-6 bajaaudition">
                     <p>
-                        Welcome to SAE BAJA Auditions
+                        Welcome to SAE-NITD BAJA Auditions
                     </p>
                     <p class="note2">
                         Team NDORS (NIT Durgapur Off-Road Sports) is the official BAJA SAE team of NIT Durgapur representing the institute in BAJA SAEINDIA. The team involves a group of 25 auto-enthusiasts across different streams who share a common passion towards automobile engineering and racing.
                         We await you in our Team NDORS Auditios
                     </p>
 
-                    <a href="" class="audition_button">
+                    <a href="https://ndors.saenitd.com/" target="blank" class="audition_button">
 
                         BAJA
                     </a>
