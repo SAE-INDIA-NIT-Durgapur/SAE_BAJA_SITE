@@ -12,7 +12,7 @@ const Auditions = () => {
                     <p class="note1">
                         We are on the lookout for individuals with a zeal to learn and ideate, and assist the club in pulling off feats of great magnitude. With a number of domains to contribute in, you will be showered with a multitude of opportunities to hone and enhance your skills. Furthermore, you will get to work on fascinating projects, which incorporate a diverse range of concepts.
                     </p>
-                    <a href="" class="audition_button">
+                    <a href="https://auditions2k22.saenitd.com/" class="audition_button">
 
                         SAE
                     </a>
