@@ -6,7 +6,7 @@ import {AiOutlineClose} from "react-icons/ai"
 const Events = () => {
     const [country, setcountry] = useState([]);
     useEffect(() => {
-        axios.get(`https://api.saenitd.com/api/event/`)
+        axios.get(`https://saewebsiteapi.herokuapp.com/api/event/`)
             .then(res => {
                 const persons = res.data;
                 setcountry(persons);

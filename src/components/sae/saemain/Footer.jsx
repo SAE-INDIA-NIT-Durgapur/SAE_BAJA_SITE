@@ -77,10 +77,10 @@ const Footer = () => {
                                         <br />
                                         <h4>Call us</h4>
                                         
-                                        <span>Rounak Das ( <strong>President</strong> )</span>
-                                        <span> : <span className="bold">+91</span> 74785 28990</span><br/>
-                                        <span>V Vishesh ( <strong>General Secretary</strong> )</span>
-                                        <span> :+91 62942 74876</span>
+                                        <span>Divas Gupta ( <strong>President</strong> )</span>
+                                        <span> : <span className="bold">+91</span> 98303 00600</span><br/>
+                                        <span>Anurag Singh ( <strong>General Secretary</strong> )</span>
+                                        <span> : +91 6386 849 227</span>
                                     </div>
                                 </div>
                             </div>

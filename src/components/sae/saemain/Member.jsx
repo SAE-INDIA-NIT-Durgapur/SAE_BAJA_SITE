@@ -9,7 +9,7 @@ import {SiGmail} from "react-icons/si"
 const Members = () => {
     const [country, setcountry] = useState([]);
     useEffect(() => {
-        axios.get(`https://api.saenitd.com/api/`)
+        axios.get(`https://saewebsiteapi.herokuapp.com/api/`)
             .then(res => {
                 const persons = res.data;
                 setcountry(persons);
@@ -62,7 +62,7 @@ const Members = () => {
                 </div>
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red" }} style={{ marginTop: "-400px", color: "red",textTransform:"uppercase"  }} >Pre Final Year</h1>
+                    <h1 className=" p-4 text-center" style={{ color: "red", marginTop: "-400px", color: "red",textTransform:"uppercase" }} >Pre Final Year</h1>
                     </div>
                     <div class="row">
                         {
@@ -96,8 +96,8 @@ const Members = () => {
                 </div>
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red" }}  style={{ marginTop: "-200px", color: "red",textTransform:"uppercase" }} >Sophomores</h1>
-                    </div>
+                    <h1 className=" p-4 text-center" style={{ color: "red", marginTop: "-50px",marginBottom: "10px", color: "red",textTransform:"uppercase" }}   >Sophomores</h1>
+                    </div><br/><br/><br/><br/><br/><br/>
                     <div class="row"  style={{ marginTop: "-350px" }}>
                         {
                             country.map((item) =>{

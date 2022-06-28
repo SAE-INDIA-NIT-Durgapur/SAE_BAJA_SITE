@@ -6,7 +6,7 @@ import "../bajacss/team.css"
 const Team = () => {
     const [country, setcountry] = useState([]);
     useEffect(() => {
-        axios.get(`https://api.saenitd.com/api/baja/`)
+        axios.get(`https://saewebsiteapi.herokuapp.com/api/baja/`)
             .then(res => {
                 const persons = res.data;
                 setcountry(persons);
