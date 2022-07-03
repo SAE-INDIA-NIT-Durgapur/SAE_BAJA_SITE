@@ -36,7 +36,7 @@ const Members = () => {
                             var x = item.batch;
                             console.log(x);
                             return(
-                                (x === 2022) ? <div class="col-lg-3">
+                                (x === 2023) ? <div class="col-lg-3">
                                     <div class="team-member">
                                         <img class="mx-auto rounded-circle" src={item.image} alt="..." />
                                         <h4  style={{textTransform:"uppercase"}}>{item.first_name} {item.last_name}</h4>
@@ -70,7 +70,7 @@ const Members = () => {
                             var x = item.batch;
                             console.log(x);
                             return(
-                                (x === 2023) ? <div class="col-lg-3">
+                                (x === 2024) ? <div class="col-lg-3">
                                     <div class="team-member">
                                         <img class="mx-auto rounded-circle" src={item.image} alt="..." />
                                         <h4 className='mb-3  ' style={{textTransform:"uppercase"}}>{item.first_name} {item.last_name}</h4>
@@ -104,7 +104,7 @@ const Members = () => {
                             var x = item.batch;
                             console.log(x);
                             return(
-                                (x === 2024) ? <div class="col-lg-3">
+                                (x === 2025) ? <div class="col-lg-3">
                                     <div class="team-member">
                                         <img class="mx-auto rounded-circle" src={item.image} alt="..." />
                                         <h4 className='mb-2'  style={{textTransform:"uppercase"}}>{item.first_name} {item.last_name}</h4>
