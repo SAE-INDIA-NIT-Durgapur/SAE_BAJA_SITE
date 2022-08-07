@@ -24,11 +24,11 @@ const Members = () => {
     // }
     return (
         <>
-            <h1 className=" p-4 text-center" style={{ color: "red",textTransform:"uppercase"  }}>Members</h1>
+            <h1 className=" p-4 text-center" style={{ color: "red",textTransform:"uppercase"  }}>OUR TEAM</h1>
             <section class="page-section " id="team">
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red",textTransform:"uppercase"  }} >Final Year</h1>
+                    <h1 className=" p-4 text-center" style={{ color: "red",textTransform:"uppercase"  }} >OFFICE-BEARERS</h1>
                     </div>
                     <div class="row ">
                         {
@@ -38,7 +38,7 @@ const Members = () => {
                             return(
                                 (x === 2023) ? <div class="col-lg-3">
                                     <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src={item.image} alt="..." />
+                                        <img class="rounded mx-auto d-block" src={item.image} alt="..." />
                                         <h4  style={{textTransform:"uppercase"}}>{item.first_name} {item.last_name}</h4>
                                         <p class="text-muted">{item.post}</p>
                                         {
@@ -62,7 +62,7 @@ const Members = () => {
                 </div>
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red", marginTop: "-400px", color: "red",textTransform:"uppercase" }} >Pre Final Year</h1>
+                    <h1 className=" p-4 text-center" style={{ color: "red", marginTop: "-400px", color: "red",textTransform:"uppercase" }} >SENIOR COORDINATORS</h1>
                     </div>
                     <div class="row">
                         {
@@ -72,7 +72,7 @@ const Members = () => {
                             return(
                                 (x === 2024) ? <div class="col-lg-3">
                                     <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src={item.image} alt="..." />
+                                        <img class="rounded mx-auto d-block" src={item.image} alt="..." />
                                         <h4 className='mb-3  ' style={{textTransform:"uppercase"}}>{item.first_name} {item.last_name}</h4>
                                         {/* <p class="text-muted">{item.post}</p> */}
                                         {
@@ -96,7 +96,7 @@ const Members = () => {
                 </div>
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red", marginTop: "-50px",marginBottom: "10px", color: "red",textTransform:"uppercase" }}   >Sophomores</h1>
+                    <h1 className=" p-4 text-center" style={{ color: "red", marginTop: "-50px",marginBottom: "10px", color: "red",textTransform:"uppercase" }}   >JUNIOR COORDINATORS</h1>
                     </div><br/><br/><br/><br/><br/><br/>
                     <div class="row"  style={{ marginTop: "-350px" }}>
                         {
@@ -106,7 +106,7 @@ const Members = () => {
                             return(
                                 (x === 2025) ? <div class="col-lg-3">
                                     <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src={item.image} alt="..." />
+                                        <img class="rounded mx-auto d-block" src={item.image} alt="..." />
                                         <h4 className='mb-2'  style={{textTransform:"uppercase"}}>{item.first_name} {item.last_name}</h4>
                                         
                                         {/* <p class="text-muted">{item.post}</p> */}
