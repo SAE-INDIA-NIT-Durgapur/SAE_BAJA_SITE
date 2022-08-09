@@ -1,9 +1,8 @@
 import React from 'react'
-import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
 import { useState, useEffect } from "react";
 import axios from 'axios';
 import "../saecss/member.css"
-import { AiFillFacebook, AiFillLinkedin, AiFillTwitterSquare, AiFillInstagram } from "react-icons/ai"
+import { AiFillLinkedin } from "react-icons/ai"
 import {SiGmail} from "react-icons/si"
 
 const Members = () => {

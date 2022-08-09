@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Pdf from "@mikecousins/react-pdf";
+// import Pdf from "@mikecousins/react-pdf";
 
 
 const Autopia = () => {
@@ -11,7 +11,7 @@ const Autopia = () => {
         <>
 
 
-            <section className="pdf text-center justify-content-center align-content-center" style={{ height: "120vh", width: "auto" }}>
+            {/* <section className="pdf text-center justify-content-center align-content-center" style={{ height: "120vh", width: "auto" }}>
                 <Pdf file="https://drive.google.com/file/d/1U52AJ3t8rzPYsUGRGXTvaSshXuUxioAl/view?usp=sharing" page={page}>
                     {({ pdfDocument, pdfPage, canvas }) => (
                         <>
@@ -34,21 +34,15 @@ const Autopia = () => {
                                                 Next
                                             </button>
                                         </ol>
-                                        {/* <li className="next">
-                                        <button
-                                            disabled={page === pdfDocument.numPages}
-                                            onClick={() => setPage(page + 1)}
-                                        >
-                                            Next
-                                        </button>
-                                    </li> */}
+                                        
                                     </ul>
                                 </nav>
                             )}
                         </>
                     )}
                 </Pdf>
-            </section>
+            </section> */}
+            <h1>pdf</h1>
 
         </>
     )
