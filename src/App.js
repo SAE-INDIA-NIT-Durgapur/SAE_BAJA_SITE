@@ -13,7 +13,6 @@ import Events from "./components/sae/saemain/Events"
 import Error from './components/sae/saemain/Error';
 import Autopia from './components/sae/saemain/Autopia';
 import Bajasae from "./components/sae/saemain/Bajasae";
-import Auditions from "./components/sae/saemain/Auditions";
 import { Routes, Route } from 'react-router-dom';
 //baja
 import Navbarb from './components/baja/bajasae/Navbarb';
@@ -63,11 +62,7 @@ function App() {
               <Footer /></>}>
 
             </Route>
-            <Route exact path='/auditions' element={<> <Navbar />
-              <Auditions />
-              <Footer /></>}>
-
-            </Route>
+            
             <Route exact path="/baja" element={<><Navbarb /><Homeb /><Aboutb /><Team /><Work /><Sponsors /><Footerb /></>} />
             <Route exact path="/baja/team" element={<><Navbarb /><Team /><Footerb /></>} />
             <Route exact path="/baja/work" element={<><Navbarb /><Work /><Footerb /></>} />
