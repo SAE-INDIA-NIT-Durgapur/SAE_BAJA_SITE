@@ -63,7 +63,7 @@ const Footer = () => {
                                         <br />
                                         <h4>Mail us</h4>
                                         <span className="footer-email">
-                                           <a href="mailto:sae.nitdgp1@gmail.com" className="text-muted text-decoration-none">sae.nitdgp1@gmail.com</a>
+                                           <a href="mailto:saeindia@nitdgp.ac.in" className="text-muted text-decoration-none">saeindia@nitdgp.ac.in</a>
                                         </span>
 
                                     </div>
