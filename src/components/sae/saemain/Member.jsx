@@ -8,7 +8,7 @@ import {SiGmail} from "react-icons/si"
 const Members = () => {
     const [country, setcountry] = useState([]);
     useEffect(() => {
-        axios.get(`https://saewebsiteapi.herokuapp.com/api/`)
+        axios.get(`https://saeapi.saenitd.com/api/`)
             .then(res => {
                 const persons = res.data;
                 setcountry(persons);
